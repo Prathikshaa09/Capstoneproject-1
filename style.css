@@ -1,0 +1,57 @@
+.card{
+   height: 100vh;
+   background-image: url("images/bg.png");
+   background-size: cover;
+   background-position: center;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+  
+ }
+ .card1{
+    font-family: "Lavishly Yours", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size:80px;
+ }
+ 
+ .card2{
+    font-family: "Dynalight", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  color:#3B7597 ;
+ }
+   
+ .image{
+    height: 200px;
+    width: 200px;
+    border:solid 2px#3B7597;
+    border-radius: 50%;
+    object-fit: cover;
+    vertical-align: middle;
+}
+hr{
+   border: dotted black 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+.text-body-emphasis,h2{
+   color:#3B7597 !important;
+}
+.parent{
+   display:grid;
+   grid-template-columns: 0.5fr 1fr;
+   grid-template-rows: 1fr 1fr;
+   gap:2rem;
+   text-align: left;
+   margin:100px auto 0 auto;
+   width:50%;
+  }
+.btn{
+ background-color:#3B7597;
+ }
+ .footer{
+   background-color:skyblue; 
+ }
