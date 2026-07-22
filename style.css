@@ -49,6 +49,14 @@ hr{
    margin:100px auto 0 auto;
    width:50%;
   }
+  @media (max-width: 768px) {
+    .parent {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        width: 90%;
+        text-align: center;
+    }
+}
 .btn{
  background-color:#3B7597;
  }
